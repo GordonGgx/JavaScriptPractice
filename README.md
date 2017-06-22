@@ -1,0 +1,2 @@
+# JavaScriptPractice
+这是学习javaScript的个人练习内容
