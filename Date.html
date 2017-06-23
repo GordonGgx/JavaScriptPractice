@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>日期函数</title>
+        <script>
+            var then=new Date(2011,0,1);
+            console.log("then="+then);
+            var later=new Date(2011,0,1,17,10,30,40);
+            console.log("later="+later);
+            //获取当前时间
+            var now=new Date();
+            console.log("now="+now);
+            //计算then到当前日期之间的毫秒数
+            var elapsed=now-then;
+            console.log("相差="+elapsed);
+            //获取later的年份月份日份 时分秒
+            var year=later.getYear();
+            console.log("year="+year);
+            var fullyear=later.getFullYear();
+            console.log("fullYear="+fullyear);
+            var month=later.getMonth();
+            var day=later.getDate();
+            var hours=later.getHours();
+            var minutes=later.getMinutes();
+            var second=later.getSeconds();
+            var millSec=later.getMilliseconds();
+            var week=later.getDay();
+            console.log("year="+fullyear+";month="+(month+1)+";day="+day+" hours="+hours+";minutes="+minutes+";second="+second+";millSec="+millSec+
+                       ";week="+week);
+            var utcHours=later.getUTCHours();
+            console.log("utcHours="+utcHours)
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
