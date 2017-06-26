@@ -36,3 +36,5 @@ var text="testing:1,2,3";
 var pattern=/\d+/g;
 console.log(pattern.test(text));
 
+
+

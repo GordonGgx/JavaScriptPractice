@@ -21,8 +21,14 @@
 >这是段落段落段落
 
 |表头1|表头2|
+<<<<<<< HEAD
 |:--:|:--|
 |内容1|内容2|
+=======
+|:--:|:--:|
+|内容1|内容2![这是图片](http://download.easyicon.net/png/1150530/64/)|
+
+>>>>>>> origin/master
 
 ```
     public static void say(){
