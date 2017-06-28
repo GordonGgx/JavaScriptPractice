@@ -1,5 +1,5 @@
 //类和原型
-function inherit(o){
+/*function inherit(o){
     if(o==null)throw TypeError("o is null");
     if(Object.create){
        return Object.create(o);
@@ -37,5 +37,17 @@ range.ggx={
 var r=range(1,4);
 r.includes(2);
 r.foreach(console.log);
-console.log(r.toString());
+console.log(r.toString());*/
 
+//类和构造函数
+function Range(from, to){
+    //存储“范围对象”的起始位置和终点位置
+    this.from=from;
+    this.to=to;
+}
+Range.prototype={
+    //如果x在这个范围内，就返回true否则返回false
+    includes:function(x){
+
+    }
+};
